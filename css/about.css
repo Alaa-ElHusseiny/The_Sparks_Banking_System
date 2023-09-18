@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
+
+*,*::before,*::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+   
+}
+::selection{
+    background-color: rgb(97, 86, 121);
+}
+.logo{
+    
+    width:50px;
+}
+header{
+    position:absolute;
+    z-index:9999;
+    padding: 0.9rem 0;
+    top:0;
+    left:0;
+    width:100%;
+    
+}
+header nav{
+    max-width:1130px;
+    margin:0 auto;
+    padding: 0 2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.1);
+}
+header ul{
+    float:left;
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+header ul a{
+    text-decoration: none;
+    color:white;
+    padding:0.9rem 1.5rem;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size:0.83rem;
+}
+header ul a:hover{
+    color:#fff;
+    border-bottom: 3px solid #fff;
+}
+main{
+    position:relative;
+    height:100vh !important;
+    width:100vw;
+    overflow:hidden;
+}
+.bg{
+    position:absolute;
+    width:1420px;
+    top:0%;
+    left:0%;
+    z-index:1;
+}
+main p{
+    position:absolute;
+    top:30%;
+    left:8%;
+    color:white;
+    z-index: 8;
+    text-align: center;
+    max-width:1130px;
+    text-align: center;
+    font-weight: 600;
+    font-style: sans-serif;
+    word-spacing: 10px;
+    margin: auto;
+}
+
+footer{
+    position:absolute;
+    text-align: center;
+    z-index:888;
+    top:580px;
+    left:40%;
+    overflow: hidden;
+}
+.cube1{
+    position:absolute;
+    width:480px;
+    height:350px;
+    top:75%;
+    left:55%;
+    z-index:3;
+    animation-name: cube1;
+    animation-duration: 2s;
+}
+@keyframes cube1 {
+    from {top:130%;}
+    to {top:85%;}
+}
+.cube2{
+    position:absolute;
+    width:350px;
+    height:250px;
+    top:60%;
+    left:75%;
+    z-index:3;
+    animation-name: cube2;
+    animation-duration: 2s;
+}
+@keyframes cube2 {
+    from {top:130%;}
+    to {top:60%;}
+}
+.cube3{
+    position:absolute;
+    width:390px;
+    height:250px;
+    top:50%;
+    left:18%;
+    z-index:3;
+    animation-name: cube3;
+    animation-duration: 2s;
+}
+@keyframes cube3 {
+    from {top:130%;}
+    to {top:50%;}
+}
+.cube4{
+    position:absolute;
+    width:350px;
+    height:250px;
+    top:40%;
+    left:57%;
+    z-index:3;
+    animation-name: cube4;
+    animation-duration: 2s;
+}
+@keyframes cube4 {
+    from {top:130%;}
+    to {top:40%;}
+}
+.cube5{
+    position:absolute;
+    width:350px;
+    height:250px;
+    top:70%;
+    left:46%;
+    z-index:3;
+    animation-name: cube5;
+    animation-duration: 2s;
+}
+@keyframes cube5 {
+    from {top:130%;}
+    to {top:70%;}
+}
+.cube6{
+    position:absolute;
+    width:350px;
+    height:250px;
+    top:68%;
+    left:8%;
+    z-index:3;
+    animation-name: cube6;
+    animation-duration: 2s;
+}
+@keyframes cube6 {
+    from {top:130%;}
+    to {top:68%;}
+}
+.dollar1{
+    position:absolute;
+    width:70px;
+    height:40px;
+    top:68%;
+    left:13%;
+    z-index:3;
+    animation-name: dollar1;
+    animation-duration: 2s;
+}
+@keyframes dollar1 {
+    from {top:130%;}
+    to {top:68%;}
+}
+.cube8{
+    position:absolute;
+    width:350px;
+    height:250px;
+    top:68%;
+    left:14%;
+    z-index:3;
+    animation-name: cube8;
+    animation-duration: 2s;
+}
+@keyframes cube8 {
+    from {top:130%;}
+    to {top:68%;}
+}
+.cube9{
+    position:absolute;
+    width:350px;
+    height:250px;
+    top:63%;
+    left:36%;
+    z-index:3;
+    animation-name: cube9;
+    animation-duration: 2s;
+}
+@keyframes cube9 {
+    from {top:130%;}
+    to {top:63%;}
+}
+.cube10{
+    position:absolute;
+    width:350px;
+    height:250px;
+    top:60%;
+    left:24%;
+    z-index:3;
+    animation-name: cube10;
+    animation-duration: 2s;
+}
+@keyframes cube10 {
+    from {top:130%;}
+    to {top:60%;}
+}
+.dollar{
+    position:absolute;
+    width:70px;
+    height:40px;
+    top:80%;
+    left:70%;
+    z-index:3;
+    animation-name: dollar;
+    animation-duration: 2s;
+}
+@keyframes dollar {
+    from {top:130%;}
+    to {top:80%;}
+}
