@@ -1,7 +1,8 @@
 # The_Sparks_Banking_System
 Banking System with Fancy Interface __The Sparks Foundation Internship Task
 
-#Features:
+##Features:
+
 1- Fully Designed and developed a Banking System.
 
 2- Technologies used: HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and MySQL
